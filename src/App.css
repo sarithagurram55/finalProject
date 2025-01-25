@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+.ten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49.97vw; 
+    height: 96.2vh;
+}
+
+.one{
+background-color: rgb(240, 229, 229);
+color: rgb(66, 66, 215);
+}
+.two{
+background-color: rgb(66, 66, 215);
+color: rgb(240, 229, 229);
+}
+.card{
+    background-color: rgb(84, 84, 206);
+    border-radius: 20px;
+    margin: 6rem 8rem;
+    height: 22rem;
+    padding: 1rem;
+}
+
+.btn{
+    color: blue;
+    width: 90% !important;
+    /* margin: auto !important; */
+    border-radius: 20px;
+    text-align: center;
+
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between !important; */
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100vw;
+    background-color: yellowgreen;
+}
+.men{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+.imgg{
+    padding-top: 9px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.pro{
+    display: grid;
+    grid-template-columns: 25% 4% auto;
+    justify-content: center;
+}
+.products{
+    list-style: none;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.prod{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cat button{
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+
+.formEle{
+    width: 50%;
+    background-color: rgb(113, 151, 138);
+    padding: 4rem;
+    height: 90vh;
+}
+.element{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.in{
+    border: none;
+    border-bottom: 2px dashed black;
+}
+.aa{
+    display: grid;
+    grid-template-columns: 30% 5% auto;
+    margin: 10px;
+}
+.bb{
+    display: flex;
+    justify-content: space-between;
+}
+.goal{
+    height: 1.7rem;
+    width: 12rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: gray;
+}
+.goals{
+    height: 1.7rem;
+    width: 8rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: yellow
+}
+.productss{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.per{
+    width:45%;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+}
